@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starwars.ConsoleApp1", "Starwars.ConsoleApp1\Starwars.ConsoleApp1.csproj", "{AD479363-2669-429A-B5A6-9D765EF368B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starwars.ConsoleApp1.Tests", "..\tests\Starwars.ConsoleApp1.Tests\Starwars.ConsoleApp1.Tests.csproj", "{304E5372-AA32-4DD0-85EE-59605EF3CA3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{5B54B7D5-5DCF-4016-A31A-5CEA70BF0F63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{9206185B-845E-4C26-BC04-C9EB5C75C37D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Directory.Packages.props = ..\Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{139630CF-A846-46A8-9650-CAA1A339F354}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C2D84CA7-5229-42FD-894B-82306EBDBB83}"
+	ProjectSection(SolutionItems) = preProject
+		..\tests\Directory.Packages.props = ..\tests\Directory.Packages.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD479363-2669-429A-B5A6-9D765EF368B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD479363-2669-429A-B5A6-9D765EF368B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD479363-2669-429A-B5A6-9D765EF368B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD479363-2669-429A-B5A6-9D765EF368B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304E5372-AA32-4DD0-85EE-59605EF3CA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304E5372-AA32-4DD0-85EE-59605EF3CA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304E5372-AA32-4DD0-85EE-59605EF3CA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304E5372-AA32-4DD0-85EE-59605EF3CA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9206185B-845E-4C26-BC04-C9EB5C75C37D} = {5B54B7D5-5DCF-4016-A31A-5CEA70BF0F63}
+		{139630CF-A846-46A8-9650-CAA1A339F354} = {5B54B7D5-5DCF-4016-A31A-5CEA70BF0F63}
+		{C2D84CA7-5229-42FD-894B-82306EBDBB83} = {5B54B7D5-5DCF-4016-A31A-5CEA70BF0F63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AA9C63B-C940-4079-8494-61AA4A11E411}
+	EndGlobalSection
+EndGlobal
